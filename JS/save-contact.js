@@ -4,12 +4,12 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:HUSSAM OUSAMA ASAAD 
+FN:ZEINAB FOAD RIDA 
 TITLE:Sales Manager
 ORG:RISE Properties
-TEL;TYPE=WORK,VOICE:+971589826204
-TEL;TYPE=WORK,VOICE:+971589826204
-EMAIL:Ahmed.Uzair@riseproperties.ae
+TEL;TYPE=WORK,VOICE:+971588028443
+TEL;TYPE=WORK,VOICE:+971588837803
+EMAIL:zeinabfoad@riseproperties.ae
 URL:http://www.riseproperties.ae
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -20,7 +20,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'HUSSAM OUSAMA ASAAD.vcf';
+  a.download = 'ZEINAB FOAD RIDA.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
